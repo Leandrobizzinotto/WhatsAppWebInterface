@@ -1,0 +1,270 @@
+:root {
+    --shadow-rgb: 0, 0, 0;
+    --mainSombra: 0 1px 1px 0 rgba(var(--shadow-rgb), 0.06), 0 2px 5px 0 rgba(var(--shadow-rgb), 0.2);
+}
+
+#body {
+    background-color: #ededed;
+    padding-bottom: 20px !important;
+}
+
+.main {
+    background-color: white;
+    box-shadow: var(--mainSombra);
+    height: 100%;
+}
+.col-4 {
+    margin: 0 !important;
+    padding: 0 !important;
+    border-right: 1px solid rgb(224, 224, 224);
+}
+
+.fotoEopcoes {
+    height: 59px;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    background-color: #ededed;
+}
+
+.fotoEopcoes-left {
+    width: 60%;
+    float: left;
+}
+
+.imgFotoEOpcoes {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.fotoEopcoes-right {
+    width: 40%;
+    float: left;
+}
+
+.fotoEopcoes-right-33 {
+    width: 33%;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+
+.fotoEopcoes-right-33 img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+
+.searchBar {
+    width: 379px;
+    height: 49px;
+    background-color: #ededed;
+    padding: 5px 9.5px;
+    position: relative;
+}
+
+.inputSearch-a,
+.inputSearch-b {
+    height: 39px;
+    float: left;
+    position: relative;
+}
+
+.inputSearch-a {
+    width: 69px;
+    background-color: white;
+    border-radius: 25px 0 0 25px;
+}
+.inputSearch-b {
+    width: 290px;
+    background-color: white;
+    border-radius: 0 25px 25px 0;
+}
+
+.inputSearch-a img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.inputSearch-b input {
+    line-height: 37px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: inherit;
+}
+.items {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 760px;
+}
+.items a {
+    color: black;
+}
+.items a:hover {
+    color: black;
+}
+
+.items a:hover .item {
+    background-color: #ededed;
+}
+
+.item {
+    width: 379px;
+    height: 73px;
+    background-color: white;
+    /* padding: 0 15px 0 13px; */
+}
+
+.photoPlace {
+    width: 79px;
+    height: 73px;
+    float: left;
+    background-color: inherit;
+}
+
+.photoPlace img {
+    width: 49px;
+    height: 49px;
+    display: block;
+    margin: 12px auto;
+    border-radius: 100%;
+}
+
+.textPlace1,
+.textPlace2 {
+    width: 300px;
+    height: 36.5px;
+    float: left;
+    padding-right: 18px;
+    background-color: inherit;
+}
+
+.topSide span {
+    margin-top: -20px;
+}
+
+.textPlace2 {
+    background-color: inherit;
+    overflow: hidden;
+    border-bottom: 0.5px solid rgb(224, 224, 224);
+}
+.leftSide {
+    width: 80%;
+    float: left;
+    padding: 10px 0 0 10px;
+}
+
+.leftSide span {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.rightSide {
+    width: 20%;
+    float: left;
+    padding: 13px 0 0 10px;
+}
+
+.rightSide span {
+    font-size: 12px;
+}
+
+.txtLeft {
+    width: 80%;
+    background-color: inherit;
+    height: 100%;
+    padding-left: 10px;
+    float: left;
+    color: #525252;
+}
+
+.txtLeft p {
+    font-size: 12px;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    margin-bottom: -50px !important;
+}
+
+.txtRight {
+    width: 20%;
+    float: left;
+    height: 100%;
+    background-color: inherit;
+}
+
+.txtRight img {
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin: auto;
+}
+
+/* CABEÇALHO */
+
+.col-8 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.things {
+    background-color: #f8f9fa;
+    padding: 150px 120px 0 150px;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: #525252;
+    display: inline-table;
+}
+
+.things img {
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.mantenha {
+    font-size: 40px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.conecta {
+    font-size: 15px;
+}
+
+.hr {
+    margin: 40px 0;
+}
+
+.righSide-rodape {
+    display: inline-table;
+    width: 440px;
+}
+
+.righSide-rodape img {
+    width: 24px;
+    float: left;
+    align-items: center;
+}
+
+.righSide-rodape p {
+    display: inline;
+    align-items: center;
+}
+
+.righSide-rodape p a {
+    color: #07bc07;
+}
+
+.righSide-rodape p a:hover {
+    color: #07bc07;
+    text-decoration: none;
+}
